@@ -7,7 +7,7 @@ import numpy as np
 df_trades = pd.read_csv('historical_data.csv')
 df_sentiment = pd.read_csv('fear_greed.csv')
 
-# ✅ SHOW ALL COLUMNS (keep row truncation as default)
+# SHOW ALL COLUMNS (keep row truncation as default)
 pd.set_option('display.max_columns', None)
 
 print("--- DATA LOADED ---")
@@ -240,4 +240,5 @@ join_date
 2024-03-09         6962  1.769655e+05
 2024-07-03         7141  1.587424e+05
 2024-10-27        35241  3.189461e+06
+
 '''
